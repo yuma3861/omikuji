@@ -25,4 +25,4 @@ if (rand == 1) {
   if (rand == 4) {
     userresult = "凶";
   }
-  document.getElementById("resukt").innerHTML = userresult;
+  document.getElementById("result").innerHTML = userresult;
