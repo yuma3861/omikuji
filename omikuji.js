@@ -3,7 +3,7 @@ var userresult;
 
 
 var username = prompt("お名前を教えてください。");
-if(username = ""){
+if(username == ""){
   document.getElementById("name").innerHTML = "名無し";
 }else{
   document.getElementById("name").innerHTML = username;
